@@ -12,6 +12,9 @@
         android:theme="@style/Theme.MamaCare"
         tools:targetApi="31">
         <activity
+            android:name=".afterlogin1"
+            android:exported="false" />
+        <activity
             android:name=".loginpage"
             android:exported="false" />
         <activity

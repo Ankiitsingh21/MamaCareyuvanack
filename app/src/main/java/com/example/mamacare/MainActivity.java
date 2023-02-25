@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent ihome = new Intent(MainActivity.this,loginpage.class);
                 startActivity(ihome);
             }
-        },3000);
+        },1000);
 
     }
 }
