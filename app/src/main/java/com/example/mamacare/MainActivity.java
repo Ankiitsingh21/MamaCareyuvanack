@@ -23,4 +23,3 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
-aditya is king
