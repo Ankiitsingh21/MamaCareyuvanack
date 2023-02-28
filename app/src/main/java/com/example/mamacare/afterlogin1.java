@@ -32,15 +32,49 @@ public class afterlogin1 extends AppCompatActivity {
 
     private void validate(String mdisease)
     {
-        if (mdisease == "cough")
+        if (mdisease.equals("cough"))
         {
-            Intent intent1 = new Intent(afterlogin1.this,fever.class);
-            startActivity(intent1);
+            Intent intent3 = new Intent(afterlogin1.this,wirell.class);
+            startActivity(intent3);
+        }
+        else if(mdisease.equals("Cough")) {
+            Intent intent3 =new Intent(afterlogin1.this,wirell.class);
+            startActivity(intent3);
+
+        }
+        else if(mdisease.equals("headache"))
+        {
+            Intent intent3 = new Intent(afterlogin1.this,Headache.class);
+            startActivity(intent3);
+        }
+        else if(mdisease.equals("Headache"))
+        {
+            Intent intent3 = new Intent(afterlogin1.this,Headache.class);
+            startActivity(intent3);
+        }
+        else if(mdisease.equals("Cold"))
+        {
+            Intent intent3 = new Intent(this,Cold.class);
+            startActivity(intent3);
+        }
+        else if(mdisease.equals("cold"))
+        {
+            Intent intent3 = new Intent(this,Cold.class);
+            startActivity(intent3);
+        }
+        else if(mdisease.equals("stomach ache"))
+        {
+            Intent intent3 = new Intent(this,Stomachache.class);
+            startActivity(intent3);
+        }
+        else if(mdisease.equals("Stomach ache"))
+        {
+            Intent intent3 = new Intent(this,Stomachache.class);
+            startActivity(intent3);
         }
         else {
-            Intent intent2 =new Intent(afterlogin1.this,wirell.class);
-            startActivity(intent2);
-
+            Intent intent3 = new Intent(afterlogin1.this,fever.class);
+            startActivity(intent3);
         }
     }
 }
